@@ -3,7 +3,13 @@ import "./Navber.css"
 const Navber = () => {
     return (
         <div>
-            <h1>Navber</h1>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Dashboard</a></li>
+            </ul>
         </div>
     );
 };
